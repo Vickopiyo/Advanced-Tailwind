@@ -936,27 +936,27 @@ const Main = () => {
 
 			{/* Teams section*/}
 			<div className=" bg-gray-50 py-32 relative">
-				<div className="w-8/12 mx-auto">
-					<div className="flex  flex-col  lg:flex-row  items-center gap-3">
-						<div className="w-full  mx-auto md:w-1/2  order-2 lg:order-1">
-							<div className="flex flex-col  md:flex-row  gap-12  ">
-								<div className="flex   gap-3  lg:gap-12 w-full">
-									<div className="w-1/2 relative overflow-hidden">
-										<img      
+				<div className="w-full lg:w-8/12 mx-auto">
+					<div className="flex flex-col lg:gap-12 items-center gap-3">
+						<div className="w-1/2   flex  flex-col order-2">
+							<div className="flex flex-col  gap-6  sm:flex-row  lg:gap-12">
+								<div className="flex flex-col gap-6  lg:gap-12">
+									<div className="relative overflow-hidden  w-52 ">
+										<img
 											src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 											alt="ceo"
-											className="w-52 h-60  lg:h-52  lg:48 object-cover rounded-md shadow-md"
+											className="w-52 h-60 lg:h-52 lg:48 object-cover rounded-md shadow-md"
 										/>
 
-										<div className="absolute bg-gradient-to-t from-black via-transparent inset-0  rounded-md "></div>
+										<div className="absolute bg-gradient-to-t from-black via-transparent inset-0  rounded-md"></div>
 
-										<div className="absolute  bottom-2  left-3 text-white">
+										<div className="absolute  bottom-2 left-3 text-white">
 											<p className="font-semibold">Malia Opiyo</p>
 											<p>CEO</p>
 										</div>
 									</div>
 
-									<div className="w-1/2  relative overflow-hidden">
+									<div className="relative overflow-hidden    w-52 ">
 										<img
 											src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 											alt="team"
@@ -972,8 +972,8 @@ const Main = () => {
 									</div>
 								</div>
 
-								<div className="flex   gap-12  mt-12 ">
-									<div className="  w-1/2 relative overflow-hidden">
+								<div className=" flex  flex-col  gap-6  lg:gap-12  mt-12 ">
+									<div className=" relative overflow-hidden  w-52 ">
 										<img
 											src="https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 											alt="team"
@@ -988,7 +988,7 @@ const Main = () => {
 										</div>
 									</div>
 
-									<div className=" w-1/2 relative overflow-hidden ">
+									<div className=" relative overflow-hidden w-52 ">
 										<img
 											src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 											alt="team"
@@ -996,19 +996,16 @@ const Main = () => {
 										/>
 
 										<div className="absolute bg-gradient-to-t from-black via-transparent inset-0  rounded-md "></div>
-
-										<div className="absolute bottom-2 left-3  text-white ">
+										<div className="absolute bottom-2 left-3  text-white">
 											<p className="font-semibold">Rajab Ochieng'</p>
 											<p>IT Support</p>
 										</div>
 									</div>
-
-									<div></div>
 								</div>
 							</div>
 						</div>
 
-						<div className=" w-full  lg:w-1/2 order-1  mb-10">
+						<div className=" w-1/2  flex flex-col order-1">
 							<p className="text-sm  text-indigo-600  mb-1 font-bold">
 								Our Support Heros
 							</p>
@@ -1136,7 +1133,7 @@ const Main = () => {
 							<div className="flex flex-col-reverse  gap-10  z-30 ">
 								<div className="w-full lg:w-1/2 text-gray-100">
 									<p className="text-2xl  md:text-4xl font-bold mb-5">
-										Find Us                   
+										Find Us
 									</p>
 									<div className="flex gap-6">
 										<div className="border-r border-white">
